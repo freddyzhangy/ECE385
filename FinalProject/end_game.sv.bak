@@ -1,0 +1,8 @@
+module end_title(
+		input logic [3:0] score1, score2,
+		input one_win, two_win
+		);
+
+	always_comb
+	begin
+		if(score1 == 

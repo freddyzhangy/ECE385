@@ -1,0 +1,6 @@
+module AddRoundKey(
+
+	input logic [127:0] msg,
+	input logic [1407:0] key,
+	input logic [3:0]round,
+	output logic out

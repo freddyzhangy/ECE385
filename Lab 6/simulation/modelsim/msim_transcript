@@ -1,0 +1,339 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do lab6_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/MUX.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:11 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/MUX.sv 
+# -- Compiling module four_one_MUX
+# -- Compiling module two_one_MUX
+# -- Compiling module three_bit_MUX
+# 
+# Top level modules:
+# 	four_one_MUX
+# 	two_one_MUX
+# 	three_bit_MUX
+# End time: 17:52:11 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:11 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 17:52:11 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/tristate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:12 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/tristate.sv 
+# -- Compiling module tristate
+# 
+# Top level modules:
+# 	tristate
+# End time: 17:52:12 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:12 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/test_memory.sv 
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+# End time: 17:52:12 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:12 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/SLC3_2.sv 
+# -- Compiling package SLC3_2
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:52:12 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:12 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/Mem2IO.sv 
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+# End time: 17:52:12 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:12 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ISDU.sv 
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+# End time: 17:52:12 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:12 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 17:52:13 on Mar 11,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/branch_logic.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:13 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/branch_logic.sv 
+# -- Compiling module branch_logic
+# 
+# Top level modules:
+# 	branch_logic
+# End time: 17:52:13 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:13 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/extend.sv 
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 17:52:13 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/reg_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:13 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 17:52:13 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/set_nzp.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:13 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/set_nzp.sv 
+# -- Compiling module set_nzp
+# 
+# Top level modules:
+# 	set_nzp
+# End time: 17:52:13 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:13 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/adder.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 17:52:13 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:14 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv 
+# -- Compiling module busMUX
+# 
+# Top level modules:
+# 	busMUX
+# End time: 17:52:14 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:14 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/memory_contents.sv 
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+# End time: 17:52:14 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:14 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 17:52:14 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:14 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 17:52:14 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/lab6_toplevel.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:14 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/lab6_toplevel.sv 
+# -- Compiling module lab6_toplevel
+# 
+# Top level modules:
+# 	lab6_toplevel
+# End time: 17:52:15 on Mar 11,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:15 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/testbench.sv 
+# -- Compiling module testbenchpart1
+# 
+# Top level modules:
+# 	testbenchpart1
+# End time: 17:52:15 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:15 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/memory_contents.sv 
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+# End time: 17:52:15 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab\ 6 {C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:52:15 on Mar 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6" C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/test_memory.sv 
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+# End time: 17:52:15 on Mar 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbenchpart1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" testbenchpart1 
+# Start time: 17:52:15 on Mar 11,2020
+# Loading sv_std.std
+# Loading work.testbenchpart1
+# Loading work.lab6_toplevel
+# Loading work.slc3
+# Loading work.HexDriver
+# Loading work.datapath
+# Loading work.reg_file
+# Loading work.extend
+# Loading work.four_one_MUX
+# Loading work.two_one_MUX
+# Loading work.three_bit_MUX
+# Loading work.ALU
+# Loading work.set_nzp
+# Loading work.branch_logic
+# Loading work.adder
+# Loading work.busMUX
+# Loading work.Mem2IO
+# Loading work.tristate
+# Loading work.ISDU
+# Loading work.test_memory
+# Loading work.SLC3_2
+# Loading work.memory_contents_sv_unit
+# Loading work.memory_parser
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: FZ  Hostname: DESKTOP-7ODDA89  ProcessID: 8804
+#           Attempting to use alternate WLF file "./wlfttinz9b".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfttinz9b
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000 ns
+add wave -position insertpoint  \
+sim:/testbenchpart1/toplevel/my_slc/data/Reset \
+sim:/testbenchpart1/toplevel/my_slc/data/Clk \
+sim:/testbenchpart1/toplevel/my_slc/data/Run \
+sim:/testbenchpart1/toplevel/my_slc/data/LD_MAR \
+sim:/testbenchpart1/toplevel/my_slc/data/LD_MDR \
+sim:/testbenchpart1/toplevel/my_slc/data/LD_IR \
+sim:/testbenchpart1/toplevel/my_slc/data/LD_BEN \
+sim:/testbenchpart1/toplevel/my_slc/data/LD_CC \
+sim:/testbenchpart1/toplevel/my_slc/data/LD_REG \
+sim:/testbenchpart1/toplevel/my_slc/data/LD_PC \
+sim:/testbenchpart1/toplevel/my_slc/data/LD_LED \
+sim:/testbenchpart1/toplevel/my_slc/data/GatePC \
+sim:/testbenchpart1/toplevel/my_slc/data/GateMDR \
+sim:/testbenchpart1/toplevel/my_slc/data/GateALU \
+sim:/testbenchpart1/toplevel/my_slc/data/GateMARMUX \
+sim:/testbenchpart1/toplevel/my_slc/data/PCMUX \
+sim:/testbenchpart1/toplevel/my_slc/data/ADDR2MUX \
+sim:/testbenchpart1/toplevel/my_slc/data/ALUK \
+sim:/testbenchpart1/toplevel/my_slc/data/DRMUX \
+sim:/testbenchpart1/toplevel/my_slc/data/SR1MUX \
+sim:/testbenchpart1/toplevel/my_slc/data/SR2MUX \
+sim:/testbenchpart1/toplevel/my_slc/data/ADDR1MUX \
+sim:/testbenchpart1/toplevel/my_slc/data/MIO_EN \
+sim:/testbenchpart1/toplevel/my_slc/data/MDR_In \
+sim:/testbenchpart1/toplevel/my_slc/data/IR \
+sim:/testbenchpart1/toplevel/my_slc/data/PC \
+sim:/testbenchpart1/toplevel/my_slc/data/S \
+sim:/testbenchpart1/toplevel/my_slc/data/BEN \
+sim:/testbenchpart1/toplevel/my_slc/data/IR_out \
+sim:/testbenchpart1/toplevel/my_slc/data/MDR \
+sim:/testbenchpart1/toplevel/my_slc/data/MAR \
+sim:/testbenchpart1/toplevel/my_slc/data/PC_out \
+sim:/testbenchpart1/toplevel/my_slc/data/register \
+sim:/testbenchpart1/toplevel/my_slc/data/PCreg \
+sim:/testbenchpart1/toplevel/my_slc/data/value \
+sim:/testbenchpart1/toplevel/my_slc/data/bus \
+sim:/testbenchpart1/toplevel/my_slc/data/addr1 \
+sim:/testbenchpart1/toplevel/my_slc/data/addr2 \
+sim:/testbenchpart1/toplevel/my_slc/data/addr_out \
+sim:/testbenchpart1/toplevel/my_slc/data/ALU_out \
+sim:/testbenchpart1/toplevel/my_slc/data/DR \
+sim:/testbenchpart1/toplevel/my_slc/data/SR1 \
+sim:/testbenchpart1/toplevel/my_slc/data/SR2 \
+sim:/testbenchpart1/toplevel/my_slc/data/SR1_out \
+sim:/testbenchpart1/toplevel/my_slc/data/SR2_out \
+sim:/testbenchpart1/toplevel/my_slc/data/SR2MUX_out \
+sim:/testbenchpart1/toplevel/my_slc/data/Mioen_out \
+sim:/testbenchpart1/toplevel/my_slc/data/n \
+sim:/testbenchpart1/toplevel/my_slc/data/z \
+sim:/testbenchpart1/toplevel/my_slc/data/p \
+sim:/testbenchpart1/toplevel/my_slc/data/sext11 \
+sim:/testbenchpart1/toplevel/my_slc/data/sext9 \
+sim:/testbenchpart1/toplevel/my_slc/data/sext6 \
+sim:/testbenchpart1/toplevel/my_slc/data/sext5
+add wave -position insertpoint  \
+sim:/testbenchpart1/toplevel/my_slc/state_controller/State
+restart
+run 500 ns
+run 1000 ns
+restart
+run 2000 ns
+
+add wave -position insertpoint  \
+sim:/testbenchpart1/toplevel/my_slc/data/register
+add wave -position insertpoint  \
+sim:/testbenchpart1/toplevel/my_slc/data/S
+# End time: 18:03:49 on Mar 11,2020, Elapsed time: 0:11:34
+# Errors: 0, Warnings: 2

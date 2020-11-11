@@ -1,0 +1,22 @@
+
+State Machine - |lab5_toplevel|control:ctrl|curr_state
+Name curr_state.J curr_state.I_shift curr_state.I_sub curr_state.H_shift curr_state.H_add curr_state.G_shift curr_state.G_add curr_state.F_shift curr_state.F_add curr_state.E_shift curr_state.E_add curr_state.D_shift curr_state.D_add curr_state.C_shift curr_state.C_add curr_state.B_shift curr_state.B_add curr_state.A_clr curr_state.A 
+curr_state.A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+curr_state.A_clr 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+curr_state.B_add 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+curr_state.B_shift 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+curr_state.C_add 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+curr_state.C_shift 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+curr_state.D_add 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+curr_state.D_shift 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+curr_state.E_add 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+curr_state.E_shift 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+curr_state.F_add 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+curr_state.F_shift 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.G_add 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.G_shift 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.H_add 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.H_shift 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.I_sub 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.I_shift 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.J 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

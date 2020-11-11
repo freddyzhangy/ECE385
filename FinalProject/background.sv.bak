@@ -1,0 +1,9 @@
+module background(
+			input Clk, Reset, frame_clk,
+			input is_title,
+			input [9:0] DrawX, DrawY,
+			output logic [1:0] is_back
+			);
+			
+
+endmodule

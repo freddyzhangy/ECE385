@@ -1,0 +1,4 @@
+module colorPalette( input logic[15:0] DRAM_DQ
+							input logic[
+							output logic [7:0] sprite_r, sprite_g, sprite_b
+							);

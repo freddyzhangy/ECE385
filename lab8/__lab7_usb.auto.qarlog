@@ -1,0 +1,41 @@
+Quartus Prime Archive log --	C:/Users/FZ/Documents/lab/__lab7_usb.auto.qarlog
+
+Archive:	C:/Users/FZ/Documents/lab/__lab7_usb.auto.qar
+Date:		Sat Mar 28 22:44:38 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/FZ/Documents/lab/db/a_dpfifo_l011.tdf
+C:/Users/FZ/Documents/lab/db/a_fefifo_7cf.tdf
+C:/Users/FZ/Documents/lab/db/altsyncram_0891.tdf
+C:/Users/FZ/Documents/lab/db/altsyncram_d1h1.tdf
+C:/Users/FZ/Documents/lab/db/altsyncram_e1h1.tdf
+C:/Users/FZ/Documents/lab/db/altsyncram_nio1.tdf
+C:/Users/FZ/Documents/lab/db/altsyncram_sqg1.tdf
+C:/Users/FZ/Documents/lab/db/cntr_1ob.tdf
+C:/Users/FZ/Documents/lab/db/cntr_do7.tdf
+C:/Users/FZ/Documents/lab/db/lab8.qpf
+C:/Users/FZ/Documents/lab/db/mult_p5t.tdf
+C:/Users/FZ/Documents/lab/db/scfifo_jr21.tdf
+C:/Users/FZ/Documents/lab/db/vga_clk_altpll.v
+Color_Mapper.sv
+HexDriver.sv
+PLLJ_PLLSPE_INFO.txt
+VGA_controller.sv
+__lab7_usb.auto.qarlog
+ball.sv
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+hpi_io_intf.sv
+lab7_usb.qsf
+lab8.sdc
+lab8.sv
+lab8_assignment_defaults.qdf
+lab8_soc.qsys
+lab8_tmp_archive.qarlog
+vga_clk.ppf
+vga_clk.qip
+vga_clk.v
+	======= Total: 30 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

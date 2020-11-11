@@ -1,0 +1,445 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "AVL_READDATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[16]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[17]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[18]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[19]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[20]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[21]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[22]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[23]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[24]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[25]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[26]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[27]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[28]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[29]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[30]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READDATA[31]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[16]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[17]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[18]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[19]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[20]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[21]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[22]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[23]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[24]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[25]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[26]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[27]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[28]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[29]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[30]",
+					"strict" : false
+				},
+				{
+					"name" : "EXPORT_DATA[31]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_READ",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_CS",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_ADDR[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_ADDR[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_ADDR[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_ADDR[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_50",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITE",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_BYTE_EN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_BYTE_EN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[16]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_BYTE_EN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[17]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[18]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[19]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[20]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[21]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[22]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[23]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[24]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_BYTE_EN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[25]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[26]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[27]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[28]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[29]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[30]",
+					"strict" : false
+				},
+				{
+					"name" : "AVL_WRITEDATA[31]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

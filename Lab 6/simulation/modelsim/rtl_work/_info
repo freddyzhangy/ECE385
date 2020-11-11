@@ -1,0 +1,569 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1583967133
+!i10b 1
+!s100 STg0W^Q@[LPccI`c@bMh81
+IBMIROA0QVBiOf?LRXQT^P0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_sv_unit
+S1
+R0
+Z4 w1583403747
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/adder.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/adder.sv
+L0 1
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1583967133.000000
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/adder.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6}
+Z9 tCvgOpt 0
+vALU
+R1
+Z10 !s110 1583967131
+!i10b 1
+!s100 6IoJaE]kR69Rh`?mS3B[l3
+I[I5LG3I6Rh=ido?CNLHZa1
+R3
+!s105 ALU_sv_unit
+S1
+R0
+R4
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ALU.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ALU.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z11 !s108 1583967131.000000
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ALU.sv|
+!i113 1
+R7
+R8
+R9
+n@a@l@u
+vbranch_logic
+R1
+R2
+!i10b 1
+!s100 88zHUPTZ5K`JegYI=4FBG2
+IFSKe:i_W3nEEV>L3ZBil72
+R3
+!s105 branch_logic_sv_unit
+S1
+R0
+R4
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/branch_logic.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/branch_logic.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/branch_logic.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/branch_logic.sv|
+!i113 1
+R7
+R8
+R9
+vbusMUX
+R1
+Z12 !s110 1583967134
+!i10b 1
+!s100 iLW6Egb`JGjRf[[G[CF3i0
+IGVo<H@jPcDD<Xnc:8oK5W2
+R3
+!s105 busMUX_sv_unit
+S1
+R0
+R4
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z13 !s108 1583967134.000000
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv|
+!i113 1
+R7
+R8
+R9
+nbus@m@u@x
+vdatapath
+R1
+R12
+!i10b 1
+!s100 A]BTIzWMeJ7WFBNbP3_jA3
+IOcA3gcR_LU55[Z318_om@1
+R3
+!s105 datapath_sv_unit
+S1
+R0
+w1583965659
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/datapath.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/datapath.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/datapath.sv|
+!i113 1
+R7
+R8
+R9
+vextend
+R1
+R2
+!i10b 1
+!s100 Y66gO[BdGWf_CZA9Z@82=2
+IeEChd0G3ojl>1KiILRi`R2
+R3
+!s105 extend_sv_unit
+S1
+R0
+R4
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/extend.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/extend.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/extend.sv|
+!i113 1
+R7
+R8
+R9
+vfour_one_MUX
+R1
+R10
+!i10b 1
+!s100 `8jBdG9TTEEg?[f^>582W0
+IVZEdhhFceoBf<n^:7cZji0
+R3
+Z14 !s105 MUX_sv_unit
+S1
+R0
+R4
+Z15 8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/MUX.sv
+Z16 FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/MUX.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R11
+Z17 !s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/MUX.sv|
+Z18 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/MUX.sv|
+!i113 1
+R7
+R8
+R9
+nfour_one_@m@u@x
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 =R2i165HPJgkY;aA[TRmG3
+If^F7>aKmWCf6:5bejekl03
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+R4
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/HexDriver.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/HexDriver.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z19 !s108 1583967132.000000
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/HexDriver.sv|
+!i113 1
+R7
+R8
+R9
+n@hex@driver
+vISDU
+R1
+Z20 !s110 1583967132
+!i10b 1
+!s100 QN=[>mOPfd_N<BUFo0:bJ0
+I;`bV>GD29NUMDV:mT=eHC2
+R3
+!s105 ISDU_sv_unit
+S1
+R0
+w1583966678
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ISDU.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ISDU.sv
+Z21 L0 19
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ISDU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ISDU.sv|
+!i113 1
+R7
+R8
+R9
+n@i@s@d@u
+vlab6_toplevel
+R1
+R12
+!i10b 1
+!s100 k;XFYEj__@<f`n61h0?<B3
+InL1neO8eY>98Wk=13BZKl0
+R3
+!s105 lab6_toplevel_sv_unit
+S1
+R0
+R4
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/lab6_toplevel.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/lab6_toplevel.sv
+L0 10
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/lab6_toplevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/lab6_toplevel.sv|
+!i113 1
+R7
+R8
+R9
+vMem2IO
+R1
+R20
+!i10b 1
+!s100 d<=A`]_5?F8Tz<i9:]04<3
+IfR>9`ncYTjKTQoFW[>fg40
+R3
+!s105 Mem2IO_sv_unit
+S1
+R0
+R4
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/Mem2IO.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/Mem2IO.sv
+Z22 L0 16
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/Mem2IO.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/Mem2IO.sv|
+!i113 1
+R7
+R8
+R9
+n@mem2@i@o
+Xmemory_contents_sv_unit
+R1
+Z23 DXx4 work 6 SLC3_2 0 22 AiPJ]X`mldW_L8Rm^eJaC3
+VW_X95LAA<F@IBdVC2NJhG0
+r1
+!s85 0
+31
+!i10b 1
+!s100 c2m7WKcaV<L[XVf`30RGj3
+IW_X95LAA<F@IBdVC2NJhG0
+!i103 1
+S1
+R0
+R4
+Z24 8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/memory_contents.sv
+Z25 FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/memory_contents.sv
+L0 14
+R5
+Z26 !s108 1583967135.000000
+Z27 !s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/memory_contents.sv|
+Z28 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/memory_contents.sv|
+!i113 1
+R7
+R8
+R9
+vmemory_parser
+R1
+R23
+DXx4 work 23 memory_contents_sv_unit 0 22 W_X95LAA<F@IBdVC2NJhG0
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 744B[g>P4=Q9zVQXU8>HF2
+II`U==LamE<5L1;`gm5<RN0
+!s105 memory_contents_sv_unit
+S1
+R0
+R4
+R24
+R25
+R22
+R5
+R26
+R27
+R28
+!i113 1
+R7
+R8
+R9
+vreg_file
+R1
+R2
+!i10b 1
+!s100 Fe7[mE]ekMC=f;UQPCR4B1
+Ii8XZ?MDW0cFkM_O[5>`BX2
+R3
+!s105 reg_file_sv_unit
+S1
+R0
+R4
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/reg_file.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/reg_file.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/reg_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/reg_file.sv|
+!i113 1
+R7
+R8
+R9
+vset_nzp
+R1
+R2
+!i10b 1
+!s100 d20Y2BaDZ_HPgobE3jPUU0
+IMJ>PE2NiJZQjJQKKhc6Ye3
+R3
+!s105 set_nzp_sv_unit
+S1
+R0
+R4
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/set_nzp.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/set_nzp.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/set_nzp.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/set_nzp.sv|
+!i113 1
+R7
+R8
+R9
+vslc3
+R1
+R12
+!i10b 1
+!s100 ?B^KOLKAl5QFH;2>aM[9W2
+IYWciRad^gnzmciAYnLCRF3
+R3
+!s105 slc3_sv_unit
+S1
+R0
+R4
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/slc3.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/slc3.sv
+R21
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/slc3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/slc3.sv|
+!i113 1
+R7
+R8
+R9
+XSLC3_2
+R1
+R20
+!i10b 1
+!s100 Cz8_^@QRefP31?j=Zf>lj0
+IAiPJ]X`mldW_L8Rm^eJaC3
+VAiPJ]X`mldW_L8Rm^eJaC3
+S1
+R0
+R4
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/SLC3_2.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/SLC3_2.sv
+L0 24
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/SLC3_2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/SLC3_2.sv|
+!i113 1
+R7
+R8
+R9
+n@s@l@c3_2
+vtest_memory
+R1
+Z29 !s110 1583967135
+!i10b 1
+!s100 AZAU7PQT4]][EEHo>57W43
+IVUL`XT33HCQ`h<hXBj3Q=0
+R3
+!s105 test_memory_sv_unit
+S1
+R0
+R4
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/test_memory.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/test_memory.sv
+L0 22
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/test_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/test_memory.sv|
+!i113 1
+R7
+R8
+R9
+vtestbenchpart1
+R1
+R29
+!i10b 1
+!s100 U@G57a]Ke7Y]ggIm_1^Q[0
+IMX>2zK?k:nHIC]2O8BUWH0
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1583967078
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/testbench.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/testbench.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/testbench.sv|
+!i113 1
+R7
+R8
+R9
+vthree_bit_MUX
+R1
+R10
+!i10b 1
+!s100 ;L1@D`nhFoofA>^gYBLDW2
+I[dKd@nkj?A9:<Gon:NEC51
+R3
+R14
+S1
+R0
+R4
+R15
+R16
+L0 46
+R5
+r1
+!s85 0
+31
+R11
+R17
+R18
+!i113 1
+R7
+R8
+R9
+nthree_bit_@m@u@x
+vtristate
+R1
+R20
+!i10b 1
+!s100 Akazoo=71mOgoH<gVR_UC0
+IhWBSQ]7lZYP83M9`ELzJ11
+R3
+!s105 tristate_sv_unit
+S1
+R0
+R4
+8C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/tristate.sv
+FC:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/tristate.sv
+R22
+R5
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/tristate.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6|C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/tristate.sv|
+!i113 1
+R7
+R8
+R9
+vtwo_one_MUX
+R1
+R10
+!i10b 1
+!s100 bmah7^2l>f=FVLgRLkgh_0
+IL<TJ@^bW:=k6kEd?6T^ek3
+R3
+R14
+S1
+R0
+R4
+R15
+R16
+L0 28
+R5
+r1
+!s85 0
+31
+R11
+R17
+R18
+!i113 1
+R7
+R8
+R9
+ntwo_one_@m@u@x

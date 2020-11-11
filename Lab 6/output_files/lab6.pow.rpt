@@ -1,0 +1,511 @@
+Power Analyzer report for lab6
+Wed Mar 11 18:12:22 2020
+Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Parallel Compilation
+  3. Power Analyzer Summary
+  4. Power Analyzer Settings
+  5. Indeterminate Toggle Rates
+  6. Operating Conditions Used
+  7. Thermal Power Dissipation by Block
+  8. Thermal Power Dissipation by Block Type
+  9. Thermal Power Dissipation by Hierarchy
+ 10. Core Dynamic Thermal Power Dissipation by Clock Domain
+ 11. Current Drawn from Voltage Supplies Summary
+ 12. VCCIO Supply Current Drawn by I/O Bank
+ 13. VCCIO Supply Current Drawn by Voltage
+ 14. Confidence Metric Details
+ 15. Signal Activities
+ 16. Power Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.02        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.6%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------+
+; Power Analyzer Summary                                                                    ;
++----------------------------------------+--------------------------------------------------+
+; Power Analyzer Status                  ; Successful - Wed Mar 11 18:12:22 2020            ;
+; Quartus Prime Version                  ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition      ;
+; Revision Name                          ; lab6                                             ;
+; Top-level Entity Name                  ; lab6_toplevel                                    ;
+; Family                                 ; Cyclone IV E                                     ;
+; Device                                 ; EP4CE115F29C7                                    ;
+; Power Models                           ; Final                                            ;
+; Total Thermal Power Dissipation        ; 172.29 mW                                        ;
+; Core Dynamic Thermal Power Dissipation ; 0.00 mW                                          ;
+; Core Static Thermal Power Dissipation  ; 98.64 mW                                         ;
+; I/O Thermal Power Dissipation          ; 73.65 mW                                         ;
+; Power Estimation Confidence            ; Low: user provided insufficient toggle rate data ;
++----------------------------------------+--------------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Power Analyzer Settings                                                                                                  ;
++------------------------------------------------------------------+---------------------------------------+---------------+
+; Option                                                           ; Setting                               ; Default Value ;
++------------------------------------------------------------------+---------------------------------------+---------------+
+; Use smart compilation                                            ; Off                                   ; Off           ;
+; Enable parallel Assembler and Timing Analyzer during compilation ; On                                    ; On            ;
+; Enable compact report table                                      ; Off                                   ; Off           ;
+; Default Power Input I/O Toggle Rate                              ; 12.5%                                 ; 12.5%         ;
+; Preset Cooling Solution                                          ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ;               ;
+; Board thermal model                                              ; None (CONSERVATIVE)                   ;               ;
+; Default Power Toggle Rate                                        ; 12.5%                                 ; 12.5%         ;
+; Use vectorless estimation                                        ; On                                    ; On            ;
+; Use Input Files                                                  ; Off                                   ; Off           ;
+; Filter Glitches in VCD File Reader                               ; On                                    ; On            ;
+; Power Analyzer Report Signal Activity                            ; Off                                   ; Off           ;
+; Power Analyzer Report Power Dissipation                          ; Off                                   ; Off           ;
+; Device Power Characteristics                                     ; TYPICAL                               ; TYPICAL       ;
+; Automatically Compute Junction Temperature                       ; On                                    ; On            ;
+; Specified Junction Temperature                                   ; 25                                    ; 25            ;
+; Ambient Temperature                                              ; 25                                    ; 25            ;
+; Use Custom Cooling Solution                                      ; Off                                   ; Off           ;
+; Board Temperature                                                ; 25                                    ; 25            ;
++------------------------------------------------------------------+---------------------------------------+---------------+
+
+
++----------------------------------------+
+; Indeterminate Toggle Rates             ;
++----------+-----------------------------+
+; Node     ; Reason                      ;
++----------+-----------------------------+
+; Data[0]  ; No valid clock domain found ;
+; Data[1]  ; No valid clock domain found ;
+; Data[2]  ; No valid clock domain found ;
+; Data[3]  ; No valid clock domain found ;
+; Data[4]  ; No valid clock domain found ;
+; Data[5]  ; No valid clock domain found ;
+; Data[6]  ; No valid clock domain found ;
+; Data[7]  ; No valid clock domain found ;
+; Data[8]  ; No valid clock domain found ;
+; Data[9]  ; No valid clock domain found ;
+; Data[10] ; No valid clock domain found ;
+; Data[11] ; No valid clock domain found ;
+; Data[12] ; No valid clock domain found ;
+; Data[13] ; No valid clock domain found ;
+; Data[14] ; No valid clock domain found ;
+; Data[15] ; No valid clock domain found ;
+; Clk      ; No valid clock domain found ;
+; Reset    ; No valid clock domain found ;
+; S[0]     ; No valid clock domain found ;
+; S[1]     ; No valid clock domain found ;
+; S[2]     ; No valid clock domain found ;
+; S[3]     ; No valid clock domain found ;
+; S[4]     ; No valid clock domain found ;
+; S[5]     ; No valid clock domain found ;
+; S[6]     ; No valid clock domain found ;
+; S[7]     ; No valid clock domain found ;
+; S[8]     ; No valid clock domain found ;
+; S[9]     ; No valid clock domain found ;
+; S[10]    ; No valid clock domain found ;
+; S[11]    ; No valid clock domain found ;
+; S[12]    ; No valid clock domain found ;
+; S[13]    ; No valid clock domain found ;
+; S[14]    ; No valid clock domain found ;
+; S[15]    ; No valid clock domain found ;
+; Run      ; No valid clock domain found ;
+; Continue ; No valid clock domain found ;
++----------+-----------------------------+
+
+
++-------------------------------------------------------------------------+
+; Operating Conditions Used                                               ;
++---------------------------------------------+---------------------------+
+; Setting                                     ; Value                     ;
++---------------------------------------------+---------------------------+
+; Device power characteristics                ; Typical                   ;
+;                                             ;                           ;
+; Voltages                                    ;                           ;
+;     VCCINT                                  ; 1.20 V                    ;
+;     VCCA                                    ; 2.50 V                    ;
+;     VCCD                                    ; 1.20 V                    ;
+;     2.5 V I/O Standard                      ; 2.5 V                     ;
+;                                             ;                           ;
+; Auto computed junction temperature          ; 26.1 degrees Celsius      ;
+;     Ambient temperature                     ; 25.0 degrees Celsius      ;
+;     Junction-to-Case thermal resistance     ; 3.90 degrees Celsius/Watt ;
+;     Case-to-Heat Sink thermal resistance    ; 0.10 degrees Celsius/Watt ;
+;     Heat Sink-to-Ambient thermal resistance ; 2.50 degrees Celsius/Watt ;
+;                                             ;                           ;
+; Board model used                            ; None                      ;
++---------------------------------------------+---------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Thermal Power Dissipation by Block                                                                                                           ;
++------------+------------+---------------------+-----------------------------+--------------------------------+-------------------------------+
+; Block Name ; Block Type ; Total Thermal Power ; Block Thermal Dynamic Power ; Block Thermal Static Power (1) ; Routing Thermal Dynamic Power ;
++------------+------------+---------------------+-----------------------------+--------------------------------+-------------------------------+
+(1) The "Thermal Power Dissipation by Block" Table has been hidden. To show this table, please select the "Write power dissipation by block to report file" option under "PowerPlay Power Analyzer Settings".
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Thermal Power Dissipation by Block Type                                                                                                                                                                            ;
++---------------------+-----------------------------------+-----------------------------+--------------------------------+-------------------------------+-----------------------------------------------------------+
+; Block Type          ; Total Thermal Power by Block Type ; Block Thermal Dynamic Power ; Block Thermal Static Power (1) ; Routing Thermal Dynamic Power ; Block Average Toggle Rate (millions of transitions / sec) ;
++---------------------+-----------------------------------+-----------------------------+--------------------------------+-------------------------------+-----------------------------------------------------------+
+; Combinational cell  ; 0.00 mW                           ; 0.00 mW                     ; --                             ; 0.00 mW                       ;    0.000                                                  ;
+; Clock control block ; 0.00 mW                           ; 0.00 mW                     ; --                             ; 0.00 mW                       ;    0.000                                                  ;
+; Register cell       ; 0.00 mW                           ; 0.00 mW                     ; --                             ; 0.00 mW                       ;    0.000                                                  ;
+; I/O                 ; 43.65 mW                          ; 0.00 mW                     ; 43.65 mW                       ; 0.00 mW                       ;    0.000                                                  ;
++---------------------+-----------------------------------+-----------------------------+--------------------------------+-------------------------------+-----------------------------------------------------------+
+(1) The "Block Thermal Static Power" for all block types except Pins and the Voltage Regulator, if one exists, is part of the "Core Static Thermal Power Dissipation" value found on the PowerPlay Power Analyzer-->Summary report panel. The "Core Static Thermal Power Dissipation" also contains the thermal static power dissipated by the routing.
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Thermal Power Dissipation by Hierarchy                                                                                                                                                                                                                ;
++-------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+----------------------------------------------------------------+
+; Compilation Hierarchy Node          ; Total Thermal Power by Hierarchy (1) ; Block Thermal Dynamic Power (1) ; Block Thermal Static Power (1)(2) ; Routing Thermal Dynamic Power (1) ; Full Hierarchy Name                                            ;
++-------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+----------------------------------------------------------------+
+; |lab6_toplevel                      ; 43.65 mW (43.65 mW)                  ; 0.00 mW (0.00 mW)               ; 43.65 mW (43.65 mW)               ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel                                                 ;
+;     |hard_block:auto_generated_inst ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|hard_block:auto_generated_inst                  ;
+;     |slc3:my_slc                    ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc                                     ;
+;         |datapath:data              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|datapath:data                       ;
+;             |busMUX:BUSMUX          ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|datapath:data|busMUX:BUSMUX         ;
+;             |adder:add              ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|datapath:data|adder:add             ;
+;             |two_one_MUX:addr1mux   ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|datapath:data|two_one_MUX:addr1mux  ;
+;             |four_one_MUX:addr2mux  ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|datapath:data|four_one_MUX:addr2mux ;
+;             |ALU:alu                ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|datapath:data|ALU:alu               ;
+;             |branch_logic:branch    ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|datapath:data|branch_logic:branch   ;
+;             |two_one_MUX:mioen      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|datapath:data|two_one_MUX:mioen     ;
+;             |reg_file:registerfile  ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|datapath:data|reg_file:registerfile ;
+;             |set_nzp:setcc          ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|datapath:data|set_nzp:setcc         ;
+;             |three_bit_MUX:sr1mux   ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|datapath:data|three_bit_MUX:sr1mux  ;
+;             |two_one_MUX:sr2mux     ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|datapath:data|two_one_MUX:sr2mux    ;
+;         |HexDriver:hex_driver0      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver0               ;
+;         |HexDriver:hex_driver1      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver1               ;
+;         |HexDriver:hex_driver2      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver2               ;
+;         |HexDriver:hex_driver3      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver3               ;
+;         |HexDriver:hex_driver4      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver4               ;
+;         |HexDriver:hex_driver5      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver5               ;
+;         |HexDriver:hex_driver6      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver6               ;
+;         |HexDriver:hex_driver7      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|HexDriver:hex_driver7               ;
+;         |Mem2IO:memory_subsystem    ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|Mem2IO:memory_subsystem             ;
+;         |ISDU:state_controller      ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|ISDU:state_controller               ;
+;         |tristate:tr0               ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|slc3:my_slc|tristate:tr0                        ;
+;     |test_memory:my_test_memory     ; 0.00 mW (0.00 mW)                    ; 0.00 mW (0.00 mW)               ; --                                ; 0.00 mW (0.00 mW)                 ; |lab6_toplevel|test_memory:my_test_memory                      ;
++-------------------------------------+--------------------------------------+---------------------------------+-----------------------------------+-----------------------------------+----------------------------------------------------------------+
+(1) Value in parentheses is the power consumed at that level of hierarchy. Value not in parentheses is the power consumed at that level of hierarchy plus the power consumed by all levels of hierarchy below it.
+
+(2) The "Block Thermal Static Power" for all levels of hierarchy except the top-level hierarchy is part of the "Core Static Thermal Power Dissipation" value found on the PowerPlay Power Analyzer-->Summary report panel. The "Core Static Thermal Power Dissipation" also contains the thermal static power dissipated by the routing.
+
+
++--------------------------------------------------------------------+
+; Core Dynamic Thermal Power Dissipation by Clock Domain             ;
++-----------------+-----------------------+--------------------------+
+; Clock Domain    ; Clock Frequency (MHz) ; Total Core Dynamic Power ;
++-----------------+-----------------------+--------------------------+
+; No clock domain ; 0.00                  ; 0.00                     ;
++-----------------+-----------------------+--------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Current Drawn from Voltage Supplies Summary                                                                                        ;
++----------------+-------------------------+---------------------------+--------------------------+----------------------------------+
+; Voltage Supply ; Total Current Drawn (1) ; Dynamic Current Drawn (1) ; Static Current Drawn (1) ; Minimum Power Supply Current (2) ;
++----------------+-------------------------+---------------------------+--------------------------+----------------------------------+
+; VCCINT         ; 41.88 mA                ; 0.00 mA                   ; 41.88 mA                 ; 41.88 mA                         ;
+; VCCIO          ; 12.49 mA                ; 0.00 mA                   ; 12.49 mA                 ; 12.49 mA                         ;
+; VCCA           ; 35.01 mA                ; 0.00 mA                   ; 35.01 mA                 ; 35.01 mA                         ;
+; VCCD           ; 2.73 mA                 ; 0.00 mA                   ; 2.73 mA                  ; 2.73 mA                          ;
++----------------+-------------------------+---------------------------+--------------------------+----------------------------------+
+(1) Currents reported in columns "Total Current Drawn", "Dynamic Current Drawn", and "Static Current Drawn" are sufficient for user operation of the device.  
+(2) Currents reported in column "Minimum Power Supply Current" are sufficient for power-up, configuration, and user operation of the device.
+
+
++-----------------------------------------------------------------------------------------------+
+; VCCIO Supply Current Drawn by I/O Bank                                                        ;
++----------+---------------+---------------------+-----------------------+----------------------+
+; I/O Bank ; VCCIO Voltage ; Total Current Drawn ; Dynamic Current Drawn ; Static Current Drawn ;
++----------+---------------+---------------------+-----------------------+----------------------+
+; 1        ; 2.5V          ; 1.52 mA             ; 0.00 mA               ; 1.52 mA              ;
+; 2        ; 2.5V          ; 1.56 mA             ; 0.00 mA               ; 1.56 mA              ;
+; 3        ; 2.5V          ; 1.58 mA             ; 0.00 mA               ; 1.58 mA              ;
+; 4        ; 2.5V          ; 1.63 mA             ; 0.00 mA               ; 1.63 mA              ;
+; 5        ; 2.5V          ; 1.62 mA             ; 0.00 mA               ; 1.62 mA              ;
+; 6        ; 2.5V          ; 1.53 mA             ; 0.00 mA               ; 1.53 mA              ;
+; 7        ; 2.5V          ; 1.56 mA             ; 0.00 mA               ; 1.56 mA              ;
+; 8        ; 2.5V          ; 1.50 mA             ; 0.00 mA               ; 1.50 mA              ;
++----------+---------------+---------------------+-----------------------+----------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------+
+; VCCIO Supply Current Drawn by Voltage                                                                                             ;
++---------------+-------------------------+---------------------------+--------------------------+----------------------------------+
+; VCCIO Voltage ; Total Current Drawn (1) ; Dynamic Current Drawn (1) ; Static Current Drawn (1) ; Minimum Power Supply Current (2) ;
++---------------+-------------------------+---------------------------+--------------------------+----------------------------------+
+; 2.5V          ; 12.49 mA                ; 0.00 mA                   ; 12.49 mA                 ; 12.49 mA                         ;
++---------------+-------------------------+---------------------------+--------------------------+----------------------------------+
+(1) Currents reported in columns "Total Current Drawn", "Dynamic Current Drawn", and "Static Current Drawn" are sufficient for user operation of the device.  
+(2) Currents reported in column "Minimum Power Supply Current" are sufficient for power-up, configuration, and user operation of the device.
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Confidence Metric Details                                                                                                                          ;
++----------------------------------------------------------------------------------------+--------------+-------------+--------------+---------------+
+; Data Source                                                                            ; Total        ; Pin         ; Registered   ; Combinational ;
++----------------------------------------------------------------------------------------+--------------+-------------+--------------+---------------+
+; Simulation (from file)                                                                 ;              ;             ;              ;               ;
+;     -- Number of signals with Toggle Rate from Simulation                              ; 0 (0.0%)     ; 0 (0.0%)    ; 0 (0.0%)     ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Simulation                       ; 0 (0.0%)     ; 0 (0.0%)    ; 0 (0.0%)     ; 0 (0.0%)      ;
+;                                                                                        ;              ;             ;              ;               ;
+; Node, entity or clock assignment                                                       ;              ;             ;              ;               ;
+;     -- Number of signals with Toggle Rate from Node, entity or clock assignment        ; 0 (0.0%)     ; 0 (0.0%)    ; 0 (0.0%)     ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Node, entity or clock assignment ; 0 (0.0%)     ; 0 (0.0%)    ; 0 (0.0%)     ; 0 (0.0%)      ;
+;                                                                                        ;              ;             ;              ;               ;
+; Vectorless estimation                                                                  ;              ;             ;              ;               ;
+;     -- Number of signals with Toggle Rate from Vectorless estimation                   ; 1085 (96.5%) ; 111 (74.0%) ; 136 (100.0%) ; 838 (100.0%)  ;
+;     -- Number of signals with Zero toggle rate, from Vectorless estimation             ; 73 (6.5%)    ; 9 (6.0%)    ; 16 (11.8%)   ; 48 (5.7%)     ;
+;     -- Number of signals with Static Probability from Vectorless estimation            ; 1085 (96.5%) ; 111 (74.0%) ; 136 (100.0%) ; 838 (100.0%)  ;
+;                                                                                        ;              ;             ;              ;               ;
+; Default assignment                                                                     ;              ;             ;              ;               ;
+;     -- Number of signals with Toggle Rate from Default assignment                      ; 0 (0.0%)     ; 0 (0.0%)    ; 0 (0.0%)     ; 0 (0.0%)      ;
+;     -- Number of signals with Static Probability from Default assignment               ; 39 (3.5%)    ; 39 (26.0%)  ; 0 (0.0%)     ; 0 (0.0%)      ;
+;                                                                                        ;              ;             ;              ;               ;
+; Assumed 0                                                                              ;              ;             ;              ;               ;
+;     -- Number of signals with Toggle Rate assumed 0                                    ; 39 (3.5%)    ; 39 (26.0%)  ; 0 (0.0%)     ; 0 (0.0%)      ;
++----------------------------------------------------------------------------------------+--------------+-------------+--------------+---------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+
+; Signal Activities                                                                                                                           ;
++--------+------+---------------------------------------------+-------------------------+--------------------+--------------------------------+
+; Signal ; Type ; Toggle Rate (millions of transitions / sec) ; Toggle Rate Data Source ; Static Probability ; Static Probability Data Source ;
++--------+------+---------------------------------------------+-------------------------+--------------------+--------------------------------+
+(1) The "Signal Activity" Table has been hidden. To show this table, please select the "Write signal activities to report file" option under "PowerPlay Power Analyzer Settings".
+
+
++-------------------------+
+; Power Analyzer Messages ;
++-------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Power Analyzer
+    Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+    Info: Processing started: Wed Mar 11 18:12:06 2020
+Info: Command: quartus_pow --read_settings_files=off --write_settings_files=off lab6 -c lab6
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Warning (335093): The Timing Analyzer is analyzing 128 combinational loops as latches. For more details, run the Check Timing command in the Timing Analyzer or view the "User-Specified and Inferred Latches" table in the Analysis & Synthesis report.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'lab6.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[7]~59|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[7]~55|datad"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[7]~55|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[7]~56|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[7]~56|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[7]~59|datac"
+    Warning (332126): Node "my_slc|data|mioen|out[7]~15|datad"
+    Warning (332126): Node "my_slc|data|mioen|out[7]~15|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[7]~56|datad"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[10]~74|combout"
+    Warning (332126): Node "my_slc|data|mioen|out[10]~21|datac"
+    Warning (332126): Node "my_slc|data|mioen|out[10]~21|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[10]~71|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[10]~71|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[10]~74|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[10]~70|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[10]~70|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[10]~71|datad"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[8]~64|combout"
+    Warning (332126): Node "my_slc|data|mioen|out[8]~17|datad"
+    Warning (332126): Node "my_slc|data|mioen|out[8]~17|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[8]~61|dataa"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[8]~61|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[8]~64|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[8]~60|datad"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[8]~60|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[8]~61|datac"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[9]~69|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[9]~65|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[9]~65|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[9]~66|dataa"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[9]~66|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[9]~69|datad"
+    Warning (332126): Node "my_slc|data|mioen|out[9]~19|datac"
+    Warning (332126): Node "my_slc|data|mioen|out[9]~19|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[9]~66|datad"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[11]~79|combout"
+    Warning (332126): Node "my_slc|data|mioen|out[11]~23|datad"
+    Warning (332126): Node "my_slc|data|mioen|out[11]~23|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[11]~76|datab"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[11]~76|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[11]~79|datad"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[11]~75|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[11]~75|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[11]~76|datac"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[2]~34|combout"
+    Warning (332126): Node "my_slc|data|mioen|out[2]~5|datad"
+    Warning (332126): Node "my_slc|data|mioen|out[2]~5|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[2]~31|datab"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[2]~31|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[2]~34|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[2]~30|datad"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[2]~30|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[2]~31|datad"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[1]~29|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[1]~25|datad"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[1]~25|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[1]~26|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[1]~26|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[1]~29|datac"
+    Warning (332126): Node "my_slc|data|mioen|out[1]~3|datac"
+    Warning (332126): Node "my_slc|data|mioen|out[1]~3|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[1]~26|datad"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[0]~24|combout"
+    Warning (332126): Node "my_slc|data|mioen|out[0]~1|datab"
+    Warning (332126): Node "my_slc|data|mioen|out[0]~1|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[0]~21|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[0]~21|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[0]~24|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[0]~20|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[0]~20|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[0]~21|datad"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[12]~84|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[12]~80|dataa"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[12]~80|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[12]~81|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[12]~81|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[12]~84|dataa"
+    Warning (332126): Node "my_slc|data|mioen|out[12]~25|datab"
+    Warning (332126): Node "my_slc|data|mioen|out[12]~25|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[12]~81|datad"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[5]~49|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[5]~45|datad"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[5]~45|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[5]~46|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[5]~46|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[5]~49|datad"
+    Warning (332126): Node "my_slc|data|mioen|out[5]~11|datad"
+    Warning (332126): Node "my_slc|data|mioen|out[5]~11|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[5]~46|datad"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[4]~44|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[4]~40|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[4]~40|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[4]~41|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[4]~41|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[4]~44|dataa"
+    Warning (332126): Node "my_slc|data|mioen|out[4]~9|datad"
+    Warning (332126): Node "my_slc|data|mioen|out[4]~9|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[4]~41|datad"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[6]~54|combout"
+    Warning (332126): Node "my_slc|data|mioen|out[6]~13|datad"
+    Warning (332126): Node "my_slc|data|mioen|out[6]~13|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[6]~51|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[6]~51|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[6]~54|datad"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[6]~50|dataa"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[6]~50|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[6]~51|datad"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[3]~39|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[3]~35|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[3]~35|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[3]~36|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[3]~36|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[3]~39|datad"
+    Warning (332126): Node "my_slc|data|mioen|out[3]~7|datad"
+    Warning (332126): Node "my_slc|data|mioen|out[3]~7|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[3]~36|datad"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[14]~94|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[14]~90|datad"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[14]~90|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[14]~91|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[14]~91|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[14]~94|datad"
+    Warning (332126): Node "my_slc|data|mioen|out[14]~29|datab"
+    Warning (332126): Node "my_slc|data|mioen|out[14]~29|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[14]~91|datad"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[15]~99|combout"
+    Warning (332126): Node "my_slc|data|mioen|out[15]~31|datad"
+    Warning (332126): Node "my_slc|data|mioen|out[15]~31|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[15]~96|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[15]~96|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[15]~99|dataa"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[15]~95|datad"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[15]~95|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[15]~96|datad"
+Warning (332125): Found combinational loop of 9 nodes File: C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv Line: 4
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[13]~89|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[13]~85|datab"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[13]~85|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[13]~86|datac"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[13]~86|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[13]~89|datac"
+    Warning (332126): Node "my_slc|data|mioen|out[13]~27|datab"
+    Warning (332126): Node "my_slc|data|mioen|out[13]~27|combout"
+    Warning (332126): Node "my_slc|data|BUSMUX|bus[13]~86|datad"
+Warning (332060): Node: Clk was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Register slc3:my_slc|datapath:data|PC_out[0] is being clocked by Clk
+Warning (332060): Node: slc3:my_slc|ISDU:state_controller|State.S_01 was determined to be a clock but was found without an associated clock assignment.
+    Info (13166): Latch slc3:my_slc|datapath:data|reg_file:registerfile|register[2][1]~140 is being clocked by slc3:my_slc|ISDU:state_controller|State.S_01
+Warning (332068): No clocks defined in design.
+Info (223000): Starting Vectorless Power Activity Estimation
+Warning (222013): Relative toggle rates could not be calculated because no clock domain could be identified for some nodes
+Info (223001): Completed Vectorless Power Activity Estimation
+Info (218000): Using Advanced I/O Power to simulate I/O buffers with the specified board trace model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (215049): Average toggle rate for this design is 0.000 millions of transitions / sec
+Info (215031): Total thermal power estimate for the design is 172.29 mW
+Info: Quartus Prime Power Analyzer was successful. 0 errors, 167 warnings
+    Info: Peak virtual memory: 4889 megabytes
+    Info: Processing ended: Wed Mar 11 18:12:22 2020
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:16
+
+

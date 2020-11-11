@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at shiftreg.sv(20): always construct contains both blocking and non-blocking assignments File: C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/shiftreg.sv Line: 20

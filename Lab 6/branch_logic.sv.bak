@@ -1,0 +1,16 @@
+module branch_logic(
+	input logic[15:0] in,
+	output logic sign
+	);
+	
+	always_comb
+	begin
+		if(in[15] == 1)
+			sign <= 3'b100;
+		else if(in[15:0] == 16'h0000)
+			sign <= 3'b010;
+		else
+			sign <= 3'b001;
+	end
+endmodule
+		

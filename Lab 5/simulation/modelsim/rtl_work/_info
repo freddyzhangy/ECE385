@@ -1,0 +1,311 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1582842936
+!i10b 1
+!s100 Gj=4g>Fcz;X6Nmi^2izV42
+I20MPeYL]Q:f@m^Kh9Fz5a1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 adder_sv_unit
+S1
+R0
+Z5 w1582221358
+Z6 8C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/adder.sv
+Z7 FC:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/adder.sv
+L0 1
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1582842935.000000
+Z10 !s107 C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/adder.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy|C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/adder.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work +incdir+C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy
+Z14 tCvgOpt 0
+vbit_shift
+R1
+R2
+!i10b 1
+!s100 ?j5P2nAZ6F@GdXQAlR=gF1
+IzW8nO1M]?Te`:AMd[iG>>2
+R3
+Z15 !s105 shiftreg_sv_unit
+S1
+R0
+R5
+Z16 8C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/shiftreg.sv
+Z17 FC:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/shiftreg.sv
+L0 52
+R8
+r1
+!s85 0
+31
+Z18 !s108 1582842936.000000
+Z19 !s107 C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/shiftreg.sv|
+Z20 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy|C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/shiftreg.sv|
+!i113 1
+R12
+R13
+R14
+vcontrol
+R1
+R2
+!i10b 1
+!s100 <dCaSCT6jB9CcHlW32JO[3
+IR0d?7Q@;m0_G9cGOHC^[L3
+R3
+!s105 control_sv_unit
+S1
+R0
+R5
+8C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/control.sv
+FC:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/control.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy|C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/control.sv|
+!i113 1
+R12
+R13
+R14
+vflipflop
+R1
+Z21 !s110 1582842937
+!i10b 1
+!s100 :Iz>WKe5cY4G:G9fmP;hf3
+IeS_oE_i05A?SlWKbQUM[T1
+R3
+Z22 !s105 synchronizer_sv_unit
+S1
+R0
+R5
+Z23 8C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/synchronizer.sv
+Z24 FC:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/synchronizer.sv
+L0 14
+R8
+r1
+!s85 0
+31
+Z25 !s108 1582842937.000000
+Z26 !s107 C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/synchronizer.sv|
+Z27 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy|C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/synchronizer.sv|
+!i113 1
+R12
+R13
+R14
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 M`kUKHYl5@l:bP5dzfaQE2
+Iz7VEjV4bh@=Lh2<Y@kQf63
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 24
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 =R2i165HPJgkY;aA[TRmG3
+I51Bz]f6OI=^Hfmf`o^`2f3
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+R5
+8C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/HexDriver.sv
+FC:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/HexDriver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy|C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/HexDriver.sv|
+!i113 1
+R12
+R13
+R14
+n@hex@driver
+vinverter
+R1
+R2
+!i10b 1
+!s100 B^_l2UZG@ZQljLZ0OizNN1
+ICSU9^7K:AP<ISfj>aDJ3o1
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 35
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vlab5_toplevel
+R1
+R21
+!i10b 1
+!s100 7@GA;7nZN3IIKe9LWXM4a3
+IdkknLz5KImJ`@8c;j=2oO3
+R3
+!s105 lab5_toplevel_sv_unit
+S1
+R0
+w1582791902
+8C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/lab5_toplevel.sv
+FC:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/lab5_toplevel.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/lab5_toplevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy|C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/lab5_toplevel.sv|
+!i113 1
+R12
+R13
+R14
+vmultiplier
+R1
+R21
+!i10b 1
+!s100 a[5QNen_;PSodMZna:=Y_3
+IafI@8EPQHWbHASBTV9UQS3
+R3
+!s105 multiplier_sv_unit
+S1
+R0
+w1582791771
+8C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/multiplier.sv
+FC:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/multiplier.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/multiplier.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy|C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/multiplier.sv|
+!i113 1
+R12
+R13
+R14
+vshift_reg
+R1
+R2
+!i10b 1
+!s100 ]C6oNnM;YSanMT<MD0Ve82
+Ih5Se0QL:D]NM]hl9lNWK61
+R3
+R15
+S1
+R0
+R5
+R16
+R17
+L0 2
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 1
+R12
+R13
+R14
+vsync
+R1
+R21
+!i10b 1
+!s100 Q09R2]zhiN3W=8N=XJAl<2
+IEi7SF:[Z`VJHJVf`CB?Z:1
+R3
+R22
+S1
+R0
+R5
+R23
+R24
+L0 1
+R8
+r1
+!s85 0
+31
+R25
+R26
+R27
+!i113 1
+R12
+R13
+R14
+vtestbench
+R1
+R21
+!i10b 1
+!s100 nBz`16E4aS9C6Ngoi?lPN1
+ISaEWF`V_DFiBZTH[o]cU20
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1582842821
+8C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/testbench.sv
+FC:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/testbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R25
+!s107 C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy|C:/Users/FZ/Downloads/ECE-385-Freddy/ECE-385-Freddy/testbench.sv|
+!i113 1
+R12
+R13
+R14

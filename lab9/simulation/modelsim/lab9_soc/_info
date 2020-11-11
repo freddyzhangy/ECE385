@@ -1,0 +1,1937 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/FZ/Documents/lab9/simulation/modelsim
+valtera_avalon_sc_fifo
+Z0 !s110 1586624107
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+IF4o0i0JK@4TgUk;I`njS`1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/simulation/modelsim
+Z3 w1586582041
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+Z4 L0 21
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1586624107.000000
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+Z7 o-vlog01compat -work lab9_soc
+Z8 !s92 -vlog01compat -work lab9_soc +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules
+Z9 tCvgOpt 0
+valtera_avalon_st_clock_crosser
+Z10 !s110 1586624113
+!i10b 1
+!s100 YbU`iK^TYJ_9Hz`CZekjQ3
+IeCTl@c=@k]BRnKjdRzoPM3
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+Z11 L0 22
+R5
+r1
+!s85 0
+31
+Z12 !s108 1586624113.000000
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!i113 1
+R7
+R8
+R9
+valtera_avalon_st_handshake_clock_crosser
+Z13 !s110 1586624112
+!i10b 1
+!s100 3f<J9K;e[9FU@JKn0^PK?0
+Il;0?EJ1DMkO4SQT7gC[j?3
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+Z14 L0 24
+R5
+r1
+!s85 0
+31
+Z15 !s108 1586624112.000000
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!i113 1
+R7
+R8
+R9
+valtera_merlin_arb_adder
+Z16 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z17 !s110 1586624114
+!i10b 1
+!s100 1Jn[a;@5nZmTN?DFKQNzj2
+IR_IJ0lFhbYL7i8H:hn6n51
+R1
+Z18 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R2
+R3
+Z19 8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+Z20 FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+L0 228
+R5
+r1
+!s85 0
+31
+Z21 !s108 1586624114.000000
+Z22 !s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z23 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+!i113 1
+Z24 o-sv -work lab9_soc
+Z25 !s92 -sv -work lab9_soc +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules
+R9
+valtera_merlin_arbitrator
+R16
+R17
+!i10b 1
+!s100 NQTehjm2fNQROUMUzShGa1
+ILC]4Vmm8_QUDXHJk?>2QE0
+R1
+R18
+S1
+R2
+R3
+R19
+R20
+L0 103
+R5
+r1
+!s85 0
+31
+R21
+R22
+R23
+!i113 1
+R24
+R25
+R9
+valtera_merlin_burst_adapter
+R16
+Z26 !s110 1586624116
+!i10b 1
+!s100 OCc70X^k:B?GW6i71n`L_3
+IWcI];h2JKdUh=eD;8LDlV1
+R1
+!s105 altera_merlin_burst_adapter_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_adapter.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_adapter.sv
+R4
+R5
+r1
+!s85 0
+31
+Z27 !s108 1586624116.000000
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_adapter.sv|
+!i113 1
+R24
+R25
+R9
+valtera_merlin_burst_adapter_uncompressed_only
+R16
+R26
+!i10b 1
+!s100 STH]BdUM[JDMJZNJGXCd>0
+IzHcV:Eez<gV@:aaS5oN6_2
+R1
+!s105 altera_merlin_burst_adapter_uncmpr_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv
+L0 39
+R5
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv|
+!i113 1
+R24
+R25
+R9
+valtera_merlin_burst_uncompressor
+R16
+R17
+!i10b 1
+!s100 f1?Rb<=9U?R9LJoHl;7>T3
+I8W<e=>=VWZkLYBbNoXbAo1
+R1
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+L0 40
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!i113 1
+R24
+R25
+R9
+valtera_merlin_master_agent
+R16
+Z28 !s110 1586624117
+!i10b 1
+!s100 _CJm:YX=>U2LQKH;8=@cb0
+IXNdXKQAmIbbaB=MohSIRb3
+R1
+!s105 altera_merlin_master_agent_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv
+L0 28
+R5
+r1
+!s85 0
+31
+Z29 !s108 1586624117.000000
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv|
+!i113 1
+R24
+R25
+R9
+valtera_merlin_master_translator
+R16
+Z30 !s110 1586624118
+!i10b 1
+!s100 NdRk@]3fC2C@V7Rm;dQM31
+If4He1bk^YzTFI_L;21OHB2
+R1
+!s105 altera_merlin_master_translator_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv
+L0 32
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv|
+!i113 1
+R24
+R25
+R9
+valtera_merlin_slave_agent
+R16
+R28
+!i10b 1
+!s100 ePZN1d?B062J`OBb?blff3
+I2gl[lO>;;K42e?6W9ZG0a1
+R1
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+Z31 L0 34
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
+!i113 1
+R24
+R25
+R9
+valtera_merlin_slave_translator
+R16
+R28
+!i10b 1
+!s100 k`9[YAn_dLTkg;GE`mOb61
+I121Hi_Adhbb>FfJzdfQ872
+R1
+!s105 altera_merlin_slave_translator_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+L0 35
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
+!i113 1
+R24
+R25
+R9
+valtera_merlin_width_adapter
+R16
+R10
+!i10b 1
+!s100 QzdA5DP6CReOTH<9QzODa3
+I]gL:=[lhn9W:O]o6RmL>b3
+R1
+!s105 altera_merlin_width_adapter_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_width_adapter.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_width_adapter.sv
+L0 25
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_width_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_merlin_width_adapter.sv|
+!i113 1
+R24
+R25
+R9
+valtera_reset_controller
+Z32 !s110 1586624106
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+I6OmbdPNi5PYnWCE?C9DGg3
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_reset_controller.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_reset_controller.v
+L0 42
+R5
+r1
+!s85 0
+31
+Z33 !s108 1586624106.000000
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R7
+R8
+R9
+valtera_reset_synchronizer
+R32
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+I^=R9H5KL@lNHkn8L04ai^3
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v
+R14
+R5
+r1
+!s85 0
+31
+R33
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R7
+R8
+R9
+valtera_std_synchronizer_nocut
+R10
+!i10b 1
+!s100 b8zV2<79GgkNg0GC<P[GJ2
+I1MO3II@R9Ro6cF>CLe];>0
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+L0 44
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!i113 1
+R7
+R8
+R9
+vavalon_aes_interface
+R16
+R30
+!i10b 1
+!s100 U>mMi>Nzj>3[Laem1cP;c0
+I;`]QL0g:gaFZ9_]]M@IK_3
+R1
+!s105 avalon_aes_interface_sv_unit
+S1
+R2
+w1586589964
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/avalon_aes_interface.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/avalon_aes_interface.sv
+R11
+R5
+r1
+!s85 0
+31
+!s108 1586624118.000000
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/avalon_aes_interface.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/avalon_aes_interface.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc
+R32
+!i10b 1
+!s100 63hjR<AGzbl>`V1m]Um1^2
+I5<@5gb;G8M3=k_ljSRS>Y1
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/lab9_soc.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/lab9_soc.v
+L0 6
+R5
+r1
+!s85 0
+31
+R33
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/lab9_soc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/lab9_soc.v|
+!i113 1
+R7
+!s92 -vlog01compat -work lab9_soc +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis
+R9
+vlab9_soc_irq_mapper
+R16
+R13
+!i10b 1
+!s100 mKVKlY5YUQ]iencHUn?lR3
+I0VSA>U:JiKA6La34X]2CE2
+R1
+!s105 lab9_soc_irq_mapper_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv
+L0 31
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_jtag_uart_0
+Z34 !s110 1586624108
+!i10b 1
+!s100 ezVSi?KNgjj1inz:5?g7f0
+Ij[d>2cbi@GC@7oMWNDMMb0
+R1
+R2
+R3
+Z35 8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v
+Z36 FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v
+L0 331
+R5
+r1
+!s85 0
+31
+Z37 !s108 1586624108.000000
+Z38 !s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v|
+Z39 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_jtag_uart_0_scfifo_r
+R34
+!i10b 1
+!s100 BmB_Tf;OzaPCM2h4gJ8zT0
+IzD?n5f_<K`dMB49C1On_72
+R1
+R2
+R3
+R35
+R36
+L0 243
+R5
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 1
+R7
+R8
+R9
+vlab9_soc_jtag_uart_0_scfifo_w
+R34
+!i10b 1
+!s100 idS<A>ZjX@Zh76M3e`X`02
+IkzU64K<;ccMeWPOKiVHTN1
+R1
+R2
+R3
+R35
+R36
+L0 78
+R5
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 1
+R7
+R8
+R9
+vlab9_soc_jtag_uart_0_sim_scfifo_r
+R34
+!i10b 1
+!s100 o@J@FUBEXW8W<b@oHU2KY2
+I2kMS=bND4EFecPY6gB>o72
+R1
+R2
+R3
+R35
+R36
+L0 164
+R5
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 1
+R7
+R8
+R9
+vlab9_soc_jtag_uart_0_sim_scfifo_w
+R34
+!i10b 1
+!s100 aSUg]mzQ?HEQQ:4m=9K8?3
+IA;E=ee;9^QQ8d]8ldd2;R1
+R1
+R2
+R3
+R35
+R36
+R4
+R5
+r1
+!s85 0
+31
+R37
+R38
+R39
+!i113 1
+R7
+R8
+R9
+vlab9_soc_mm_interconnect_0
+R0
+!i10b 1
+!s100 V<e5lba9<MUOHceUNZdXD2
+I5<=U:JjCeUHZhhAA_VXom1
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R33
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_mm_interconnect_0_avalon_st_adapter
+R0
+!i10b 1
+!s100 i6:YS24AmzoP9amOA4RVA0
+IIoDeYBmMR;6AXXz9UodgL3
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_mm_interconnect_0_avalon_st_adapter_006
+R0
+!i10b 1
+!s100 iZJR2o`j6LhMD6V=RzIf71
+I30FMT=8W15Fl9hhb8YH[=1
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_006.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_006.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_006.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_006.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0
+R16
+R13
+!i10b 1
+!s100 LVeTGkK>oTUTl@97n3FPF2
+IX0V5Jzd8Kmd6dz;;>iQg@2
+R1
+!s105 lab9_soc_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv
+Z40 L0 66
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_006_error_adapter_0.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+R16
+R13
+!i10b 1
+!s100 PLS>hHl5EjHIHCQdcMhT^2
+I2i@:cYi`Ui<M0?HA7PSOG2
+R1
+!s105 lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+R40
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_cmd_demux
+R16
+Z41 !s110 1586624115
+!i10b 1
+!s100 cfiLFL<g6C9iSLzQ=F;Ae0
+ITc0oMNhd4kf_;>eFUGPc52
+R1
+!s105 lab9_soc_mm_interconnect_0_cmd_demux_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv
+Z42 L0 43
+R5
+r1
+!s85 0
+31
+Z43 !s108 1586624115.000000
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_cmd_demux_001
+R16
+R41
+!i10b 1
+!s100 M2A8GoACUnB`T27ZaCW3:0
+InI3kMmeT9[ijYoc@L=85^0
+R1
+!s105 lab9_soc_mm_interconnect_0_cmd_demux_001_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv
+R42
+R5
+r1
+!s85 0
+31
+R43
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_cmd_mux
+R16
+R41
+!i10b 1
+!s100 HEo];F_nNV42iS_m0WY:<3
+IKjNO0X?egMHA4CKP9Kl>X0
+R1
+!s105 lab9_soc_mm_interconnect_0_cmd_mux_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv
+Z44 L0 51
+R5
+r1
+!s85 0
+31
+R43
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_cmd_mux_002
+R16
+R41
+!i10b 1
+!s100 9_Ne:Xo@HA6>JGD4GOPIW0
+IN0EEK?BZ1PPNz5kX]I[7j1
+R1
+!s105 lab9_soc_mm_interconnect_0_cmd_mux_002_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv
+R44
+R5
+r1
+!s85 0
+31
+R43
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_router
+R16
+R28
+!i10b 1
+!s100 Jadblf1G_k^1IBBm`7`Og3
+IYHSHf;>M^AOT23SGza8<c1
+R1
+Z45 !s105 lab9_soc_mm_interconnect_0_router_sv_unit
+S1
+R2
+R3
+Z46 8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv
+Z47 FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv
+Z48 L0 84
+R5
+r1
+!s85 0
+31
+R29
+Z49 !s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv|
+Z50 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_router_001
+R16
+R28
+!i10b 1
+!s100 K1L0Mgi1HXmUeTCk@;j:P0
+IiTX^cQiAk6S2=3bfbFPlJ0
+R1
+Z51 !s105 lab9_soc_mm_interconnect_0_router_001_sv_unit
+S1
+R2
+R3
+Z52 8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv
+Z53 FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv
+R48
+R5
+r1
+!s85 0
+31
+R27
+Z54 !s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv|
+Z55 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_router_001_default_decode
+R16
+R28
+!i10b 1
+!s100 j]I3]fzi;=Ai`K0`DAV542
+Iz;cd9mWz?K30;@AVY=?i10
+R1
+R51
+S1
+R2
+R3
+R52
+R53
+Z56 L0 45
+R5
+r1
+!s85 0
+31
+R27
+R54
+R55
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_router_002
+R16
+R26
+!i10b 1
+!s100 ^Tj[[iR1WY7S3IRL4FT:?3
+IXGJV`dVJ3;c@<_F`b;[Wi2
+R1
+Z57 !s105 lab9_soc_mm_interconnect_0_router_002_sv_unit
+S1
+R2
+R3
+Z58 8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv
+Z59 FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv
+R48
+R5
+r1
+!s85 0
+31
+R27
+Z60 !s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv|
+Z61 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_router_002_default_decode
+R16
+R26
+!i10b 1
+!s100 efE]eFm[9Hmk:HOLFWKfJ1
+Il0FoiHK`5TAnGHElY=41>2
+R1
+R57
+S1
+R2
+R3
+R58
+R59
+R56
+R5
+r1
+!s85 0
+31
+R27
+R60
+R61
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_router_004
+R16
+R26
+!i10b 1
+!s100 70QjC4e8l[7AM;a<AkJV:3
+I0JYfo0R1E>gch3fRgEDiA0
+R1
+Z62 !s105 lab9_soc_mm_interconnect_0_router_004_sv_unit
+S1
+R2
+R3
+Z63 8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv
+Z64 FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv
+R48
+R5
+r1
+!s85 0
+31
+R27
+Z65 !s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv|
+Z66 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_router_004_default_decode
+R16
+R26
+!i10b 1
+!s100 64Omg<AK?gDAnYkk>bA1@2
+I>IThmEgECjT0?@NQIXf_@2
+R1
+R62
+S1
+R2
+R3
+R63
+R64
+R56
+R5
+r1
+!s85 0
+31
+R27
+R65
+R66
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_router_008
+R16
+R26
+!i10b 1
+!s100 oX93>S5<[j]kzBk`gM6W>1
+Igj8V2P>D8GG6_@eXM^g;g3
+R1
+Z67 !s105 lab9_soc_mm_interconnect_0_router_008_sv_unit
+S1
+R2
+R3
+Z68 8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_008.sv
+Z69 FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_008.sv
+R48
+R5
+r1
+!s85 0
+31
+R27
+Z70 !s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_008.sv|
+Z71 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_008.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_router_008_default_decode
+R16
+R26
+!i10b 1
+!s100 AEDOJodz[KPe0UUB=ihNe3
+IM1CSUPi32Fb=2hONL4QBP1
+R1
+R67
+S1
+R2
+R3
+R68
+R69
+R56
+R5
+r1
+!s85 0
+31
+R27
+R70
+R71
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_router_default_decode
+R16
+R28
+!i10b 1
+!s100 9fY3fjB8R3`8oOOh9YP4G3
+IbY1I5zRFK[UoVTQ=nk01j3
+R1
+R45
+S1
+R2
+R3
+R46
+R47
+R56
+R5
+r1
+!s85 0
+31
+R29
+R49
+R50
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_rsp_demux
+R16
+R17
+!i10b 1
+!s100 ZE:VP1ETMc85?:g^[6E0T1
+I6kgJBKJKbk4eKYQV=Y7kJ3
+R1
+!s105 lab9_soc_mm_interconnect_0_rsp_demux_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv
+R42
+R5
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_rsp_demux_002
+R16
+R17
+!i10b 1
+!s100 :W83?FiA^48FWL<fFJF341
+ImBXUFl0[SNe86;h8[7eTA3
+R1
+!s105 lab9_soc_mm_interconnect_0_rsp_demux_002_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv
+R42
+R5
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_rsp_mux
+R16
+R17
+!i10b 1
+!s100 J3z>T1hUBWJFE>dM09mFE3
+IF`TmQDE][@8]`@m:26T863
+R1
+!s105 lab9_soc_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv
+R44
+R5
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_mm_interconnect_0_rsp_mux_001
+R16
+R17
+!i10b 1
+!s100 z4>3egDgN9M1]^OblMjDZ0
+IfWil04kYb1ZLO61N_S2dD2
+R1
+!s105 lab9_soc_mm_interconnect_0_rsp_mux_001_sv_unit
+S1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv
+R44
+R5
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv|
+!i113 1
+R24
+R25
+R9
+vlab9_soc_NIOS2
+Z72 !s110 1586624109
+!i10b 1
+!s100 NKV4QUi8gL<2Z?_Di]5Z@1
+I<EDjR^TO@WZ8fhZ?G1XTc3
+R1
+R2
+R3
+Z73 8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2.v
+Z74 FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2.v
+L0 3188
+R5
+r1
+!s85 0
+31
+Z75 !s108 1586624109.000000
+Z76 !s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2.v|
+Z77 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2.v|
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2
+vlab9_soc_NIOS2_jtag_debug_module_sysclk
+R72
+!i10b 1
+!s100 TSgk;_o8O]J1@OC?8_JO^2
+IzO@k<_kzT_Ao3[@:h]bOO3
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_jtag_debug_module_sysclk.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_jtag_debug_module_sysclk.v
+R4
+R5
+r1
+!s85 0
+31
+R75
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_jtag_debug_module_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_jtag_debug_module_sysclk.v|
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_jtag_debug_module_sysclk
+vlab9_soc_NIOS2_jtag_debug_module_tck
+R72
+!i10b 1
+!s100 6MF:FVbPW0PLIBch<YN:R1
+IXGCfA4]CLHDMiVTSa7X2=2
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_jtag_debug_module_tck.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_jtag_debug_module_tck.v
+R4
+R5
+r1
+!s85 0
+31
+R75
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_jtag_debug_module_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_jtag_debug_module_tck.v|
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_jtag_debug_module_tck
+vlab9_soc_NIOS2_jtag_debug_module_wrapper
+R72
+!i10b 1
+!s100 f9;dYD<_;iV:JBMiHUX?F1
+IgTzA3:M;Y9BhO>o:U5X6B1
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_jtag_debug_module_wrapper.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_jtag_debug_module_wrapper.v
+R4
+R5
+r1
+!s85 0
+31
+R75
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_jtag_debug_module_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_jtag_debug_module_wrapper.v|
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_jtag_debug_module_wrapper
+vlab9_soc_NIOS2_nios2_avalon_reg
+R72
+!i10b 1
+!s100 _hmLQ;_Q9Qe5glDP;O:Ui0
+IfnGcCP<G@TJ::CCgVVG5>1
+R1
+R2
+R3
+R73
+R74
+L0 543
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_avalon_reg
+vlab9_soc_NIOS2_nios2_oci
+R72
+!i10b 1
+!s100 I;P2B9XP;e]jM@3CGWSW<1
+IWM?ISLA^:NREHlWaEf[BX3
+R1
+R2
+R3
+R73
+R74
+L0 2679
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci
+vlab9_soc_NIOS2_nios2_oci_break
+R72
+!i10b 1
+!s100 ^4UaEcaXdb[N_NHdZJ?o20
+IGb?DR2icLO94e1ObXEHD82
+R1
+R2
+R3
+R73
+R74
+L0 636
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci_break
+vlab9_soc_NIOS2_nios2_oci_compute_input_tm_cnt
+R72
+!i10b 1
+!s100 :3W^CWm<DdKGZK:ziN4K;0
+I`JW^aS<hH:[b11gfm^n]e2
+R1
+R2
+R3
+R73
+R74
+L0 1812
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci_compute_input_tm_cnt
+vlab9_soc_NIOS2_nios2_oci_dbrk
+R72
+!i10b 1
+!s100 Z;f>f;>3hdJ[1CXK[XC^00
+I;kl[73UFK1z[C=J<IA3LI2
+R1
+R2
+R3
+R73
+R74
+L0 1138
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci_dbrk
+vlab9_soc_NIOS2_nios2_oci_debug
+R72
+!i10b 1
+!s100 D=j3XUkWIX8D[W]6_8BkZ0
+I3FCEXnL4E9_XhE;S8eC_22
+R1
+R2
+R3
+R73
+R74
+L0 153
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci_debug
+vlab9_soc_NIOS2_nios2_oci_dtrace
+R72
+!i10b 1
+!s100 [I1_QMB7;5E1fXE9][kKV3
+Ik2Ez<JTJ]TJW4[YOH[^9O2
+R1
+R2
+R3
+R73
+R74
+L0 1717
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci_dtrace
+vlab9_soc_NIOS2_nios2_oci_fifo
+R72
+!i10b 1
+!s100 2znMHOahlSlU@<TWnWEkH1
+IifUSAT35^6H`>oXXId:g31
+R1
+R2
+R3
+R73
+R74
+L0 1974
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci_fifo
+vlab9_soc_NIOS2_nios2_oci_fifo_cnt_inc
+R72
+!i10b 1
+!s100 QDbkNB7_VV_0ON=nUi7KS0
+I02FBd7<47YEVM0CRBRWCh1
+R1
+R2
+R3
+R73
+R74
+L0 1927
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci_fifo_cnt_inc
+vlab9_soc_NIOS2_nios2_oci_fifo_wrptr_inc
+R72
+!i10b 1
+!s100 K5lVF4ZdkHMYj<]ET66gB3
+IcW^OLzC2WdT45kHWfJTY>1
+R1
+R2
+R3
+R73
+R74
+L0 1884
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci_fifo_wrptr_inc
+vlab9_soc_NIOS2_nios2_oci_im
+R72
+!i10b 1
+!s100 ]^WVhOd8PDA4[fdW6cmK91
+IHiok9`oLBFnGLUcfe^Q=P2
+R1
+R2
+R3
+R73
+R74
+L0 2545
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci_im
+vlab9_soc_NIOS2_nios2_oci_itrace
+R72
+!i10b 1
+!s100 ]LB7O?b6;_5aDBMZGOHdf1
+INgE9PXVa]I51OAY@LD[SF1
+R1
+R2
+R3
+R73
+R74
+L0 1325
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci_itrace
+vlab9_soc_NIOS2_nios2_oci_pib
+R72
+!i10b 1
+!s100 V^_R<=W]0@gL`4b`5gcLE1
+ISKZhem6R>ec]=Ed[XAEc^2
+R1
+R2
+R3
+R73
+R74
+L0 2476
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci_pib
+vlab9_soc_NIOS2_nios2_oci_td_mode
+R72
+!i10b 1
+!s100 bk`QWcQnY2haghBIBR^5=2
+ILjMHM<SbNA>:b[=A6TA<X0
+R1
+R2
+R3
+R73
+R74
+L0 1649
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci_td_mode
+vlab9_soc_NIOS2_nios2_oci_xbrk
+R72
+!i10b 1
+!s100 ]CVNO0hWij8kRUAKF`6YD3
+IZRNREiVab;PUAo3jBhhW;1
+R1
+R2
+R3
+R73
+R74
+L0 931
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_oci_xbrk
+vlab9_soc_NIOS2_nios2_ocimem
+R72
+!i10b 1
+!s100 X@ZLoKmTg3TZ5CgNSWh`[2
+IaL@V_U7?4QzFbF9D`47X91
+R1
+R2
+R3
+R73
+R74
+L0 359
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_ocimem
+vlab9_soc_NIOS2_nios2_performance_monitors
+R72
+!i10b 1
+!s100 :RoP6ciN`Ii<J?Ic42cgW2
+I<8=CY=gnmi>DzobE8IKI13
+R1
+R2
+R3
+R73
+R74
+L0 2662
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_nios2_performance_monitors
+vlab9_soc_NIOS2_oci_test_bench
+Z78 !s110 1586624110
+!i10b 1
+!s100 D]lTL`Yj^7iWES<;O0]`m1
+IKV[3z:LP9j?lj[z;gQQnh0
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_oci_test_bench.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_oci_test_bench.v
+R4
+R5
+r1
+!s85 0
+31
+Z79 !s108 1586624110.000000
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_oci_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_oci_test_bench.v|
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_oci_test_bench
+vlab9_soc_NIOS2_ociram_sp_ram_module
+R72
+!i10b 1
+!s100 RHZ5U9F;WN14_LRW7BiYX3
+Im9<2BcNJdF<fV=C[T9h]a3
+R1
+R2
+R3
+R73
+R74
+L0 295
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_ociram_sp_ram_module
+vlab9_soc_NIOS2_register_bank_a_module
+R72
+!i10b 1
+!s100 f9Ra^Ma2n;2aHHli:Ve2c1
+IR0Zia??=gDkiJAC=G:1Cb0
+R1
+R2
+R3
+R73
+R74
+R4
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_register_bank_a_module
+vlab9_soc_NIOS2_register_bank_b_module
+R72
+!i10b 1
+!s100 NB07_=P<nd7;``cNWbSFX3
+II22bh28@>]FBV4ZiWB<G73
+R1
+R2
+R3
+R73
+R74
+L0 87
+R5
+r1
+!s85 0
+31
+R75
+R76
+R77
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_register_bank_b_module
+vlab9_soc_NIOS2_test_bench
+R78
+!i10b 1
+!s100 z0:Q3N0XXaXYH=M5Qgh^X0
+IOG6m2Ig7_locgg^0:KVhB0
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_test_bench.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_test_bench.v
+R4
+R5
+r1
+!s85 0
+31
+R79
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_NIOS2_test_bench.v|
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@n@i@o@s2_test_bench
+vlab9_soc_onchip_memory2_0
+R34
+!i10b 1
+!s100 mc[fAEEk9LZ^Xf9]mXACf1
+IP`g<][J`PdWOhOfNY?:7=1
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v
+R4
+R5
+r1
+!s85 0
+31
+R37
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sdram
+R34
+!i10b 1
+!s100 @HQF5;dz@gXnz6nDDG7ES2
+I^`1Kz2;8YK`>R:YnlGTJJ2
+R1
+R2
+R3
+Z80 8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram.v
+Z81 FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram.v
+L0 159
+R5
+r1
+!s85 0
+31
+R37
+Z82 !s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram.v|
+Z83 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sdram_input_efifo_module
+R34
+!i10b 1
+!s100 HVfBMTag<alAP5c^LzO^11
+I>zGbFh5Umk;Soon^bd8zJ3
+R1
+R2
+R3
+R80
+R81
+R4
+R5
+r1
+!s85 0
+31
+R37
+R82
+R83
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sdram_pll
+R0
+!i10b 1
+!s100 k1e?TIU`9iNGmaZ`FJ68X2
+Iez5R^bHzbOjg9gI@TKkzU3
+R1
+R2
+R3
+Z84 8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v
+Z85 FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v
+L0 217
+R5
+r1
+!s85 0
+31
+R6
+Z86 !s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v|
+Z87 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sdram_pll_altpll_lqa2
+R0
+!i10b 1
+!s100 15SFihDRG94=CMf=ZKbO`0
+I?7@ZDLJ8ohdflH3G2n3UC3
+R1
+R2
+R3
+R84
+R85
+L0 130
+R5
+r1
+!s85 0
+31
+R6
+R86
+R87
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sdram_pll_dffpipe_l2c
+R0
+!i10b 1
+!s100 jh6FXUEYoRk6>Bed0M[O31
+I6S7`=1=Ff:OHe57WBF4Rd0
+R1
+R2
+R3
+R84
+R85
+L0 37
+R5
+r1
+!s85 0
+31
+R6
+R86
+R87
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sdram_pll_stdsync_sv6
+R0
+!i10b 1
+!s100 Boa55hDb@o6_bBM8zGEKK1
+I[Z<7R^@G5hV53XcQGi<Ug0
+R1
+R2
+R3
+R84
+R85
+L0 98
+R5
+r1
+!s85 0
+31
+R6
+R86
+R87
+!i113 1
+R7
+R8
+R9
+vlab9_soc_sysid_qsys_0
+R0
+!i10b 1
+!s100 meQlAVeAbB4MPOc;1@E^31
+INSLU43;9H7G:aczU@Q2iO2
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v
+R31
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v|
+!i113 1
+R7
+R8
+R9
+vlab9_soc_TIMER
+R34
+!i10b 1
+!s100 Y4TDoE0Aaz_L:82h6l5d73
+Ig90Z_6?C:mCKoZaa4H@YU2
+R1
+R2
+R3
+8C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_TIMER.v
+FC:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_TIMER.v
+R4
+R5
+r1
+!s85 0
+31
+R37
+!s107 C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_TIMER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules|C:/Users/Mehul/Documents/GitHub/ECE-385/lab9/lab9_soc/synthesis/submodules/lab9_soc_TIMER.v|
+!i113 1
+R7
+R8
+R9
+nlab9_soc_@t@i@m@e@r

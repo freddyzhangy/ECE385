@@ -1,0 +1,6 @@
+module hit_calculator(
+		input logic [9:0] x1, x2,
+		input logic punch1, punch2, kick1, kick2,
+		input logic high1, high2, low1, low2,
+		output logic hit1, hit2
+		);

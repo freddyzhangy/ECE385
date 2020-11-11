@@ -1,0 +1,11 @@
+module timing_controller(	
+									input logic Clk,
+									input logic opener,
+									
+									output logic opener_out
+
+									);
+									
+	assign #2000000000 opener_out = opener;
+	
+endmodule								

@@ -1,0 +1,13 @@
+
+State Machine - |lab9_top|avalon_aes_interface:aes_interface|AES:aes|AES_Control:states|curr_state
+Name curr_state.halted curr_state.Stop curr_state.IMC4 curr_state.IMC3 curr_state.IMC2 curr_state.IMC1 curr_state.ISB curr_state.ISR curr_state.ARK curr_state.Start 
+curr_state.Start 0 0 0 0 0 0 0 0 0 0 
+curr_state.ARK 0 0 0 0 0 0 0 0 1 1 
+curr_state.ISR 0 0 0 0 0 0 0 1 0 1 
+curr_state.ISB 0 0 0 0 0 0 1 0 0 1 
+curr_state.IMC1 0 0 0 0 0 1 0 0 0 1 
+curr_state.IMC2 0 0 0 0 1 0 0 0 0 1 
+curr_state.IMC3 0 0 0 1 0 0 0 0 0 1 
+curr_state.IMC4 0 0 1 0 0 0 0 0 0 1 
+curr_state.Stop 0 1 0 0 0 0 0 0 0 1 
+curr_state.halted 1 0 0 0 0 0 0 0 0 1 

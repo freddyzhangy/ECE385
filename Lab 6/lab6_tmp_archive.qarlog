@@ -1,0 +1,40 @@
+Quartus Prime Archive log --	C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/lab6_tmp_archive.qarlog
+
+Archive:	C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/lab6_tmp_archive.qar
+Date:		Wed Mar 11 18:15:33 2020
+Quartus Prime		18.0.0 Build 614 04/24/2018 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ALU.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/HexDriver.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/ISDU.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/MUX.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/Mem2IO.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/SLC3_2.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/adder.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/branch_logic.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/busMUX.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/datapath.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/extend.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/lab6.qpf
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/lab6.qsf
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/lab6_toplevel.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/memory_contents.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/reg_file.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/registers.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/set_nzp.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/slc3.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/test_memory.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/testbench.sv
+C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/tristate.sv
+c:/intelfpga_lite/18.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 23 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Mar 11 18:15:36 2020
+Source archive file:	C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/lab6_tmp_archive.qar
+Archive was extracted into	C:/Users/FZ/Downloads/ECE-385-267a9f9fb1daea2298f16ba84196c6b1f6c4328a/Lab 6/
+		 - successfully.

@@ -1,0 +1,198 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab9test_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test {C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/AddRoundKey.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:49:16 on Apr 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test" C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/AddRoundKey.sv 
+# -- Compiling module AddRoundKey
+# 
+# Top level modules:
+# 	AddRoundKey
+# End time: 10:49:16 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test {C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/SubBytes.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:49:17 on Apr 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test" C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/SubBytes.sv 
+# -- Compiling module SubBytes
+# -- Compiling module InvSubBytes
+# 
+# Top level modules:
+# 	SubBytes
+# 	InvSubBytes
+# End time: 10:49:17 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test {C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/InvShiftRows.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:49:17 on Apr 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test" C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/InvShiftRows.sv 
+# -- Compiling module InvShiftRows
+# 
+# Top level modules:
+# 	InvShiftRows
+# End time: 10:49:17 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test {C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/InvMixColumns.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:49:17 on Apr 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test" C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/InvMixColumns.sv 
+# -- Compiling module InvMixColumns
+# -- Compiling package InvMixColumns_sv_unit
+# -- Compiling module GF_Mul_9
+# -- Compiling module GF_Mul_b
+# -- Compiling module GF_Mul_d
+# -- Compiling module GF_Mul_e
+# 
+# Top level modules:
+# 	InvMixColumns
+# End time: 10:49:17 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test {C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:49:17 on Apr 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test" C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv 
+# -- Compiling module hexdriver
+# 
+# Top level modules:
+# 	hexdriver
+# End time: 10:49:17 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test {C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/AES_Control.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:49:17 on Apr 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test" C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/AES_Control.sv 
+# -- Compiling module AES_Control
+# 
+# Top level modules:
+# 	AES_Control
+# End time: 10:49:17 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test {C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/KeyExpansion.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:49:17 on Apr 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test" C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/KeyExpansion.sv 
+# -- Compiling module KeyExpansion
+# -- Compiling module KeyExpansionOne
+# 
+# Top level modules:
+# 	KeyExpansion
+# End time: 10:49:17 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test {C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/InvSubHelper.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:49:18 on Apr 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test" C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/InvSubHelper.sv 
+# -- Compiling module InvSubHelper
+# 
+# Top level modules:
+# 	InvSubHelper
+# End time: 10:49:18 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test {C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/AES.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:49:18 on Apr 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test" C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/AES.sv 
+# -- Compiling module AES
+# 
+# Top level modules:
+# 	AES
+# End time: 10:49:18 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test {C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/avalon_aes_interface.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:49:18 on Apr 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test" C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/avalon_aes_interface.sv 
+# -- Compiling module avalon_aes_interface
+# 
+# Top level modules:
+# 	avalon_aes_interface
+# End time: 10:49:18 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test {C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/lab9_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:49:18 on Apr 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test" C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/lab9_top.sv 
+# -- Compiling module lab9_top
+# 
+# Top level modules:
+# 	lab9_top
+# End time: 10:49:18 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test {C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:49:18 on Apr 11,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test" C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/testbench.sv 
+# -- Compiling module testbench
+# ** Warning: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/testbench.sv(42): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/testbench.sv(46): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/testbench.sv(50): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/testbench.sv(54): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	testbench
+# End time: 10:49:18 on Apr 11,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 10:49:19 on Apr 11,2020
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.lab9_top
+# Loading work.avalon_aes_interface
+# Loading work.AES
+# Loading work.KeyExpansion
+# Loading work.KeyExpansionOne
+# Loading work.SubBytes
+# Loading work.AES_Control
+# Loading work.AddRoundKey
+# Loading work.InvShiftRows
+# Loading work.InvMixColumns
+# Loading work.InvMixColumns_sv_unit
+# Loading work.GF_Mul_9
+# Loading work.GF_Mul_b
+# Loading work.GF_Mul_d
+# Loading work.GF_Mul_e
+# Loading work.InvSubHelper
+# Loading work.InvSubBytes
+# Loading work.hexdriver
+# ** Warning: (vsim-3015) C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/avalon_aes_interface.sv(90): [PCDPC] - Port size (1) does not match connection size (32) for port 'AES_START'. The port definition is at: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/AES.sv(17).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/toplevel/aes_interface/aes File: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/AES.sv
+# ** Warning: (vsim-3015) C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/lab9_top.sv(42): [PCDPC] - Port size (7) does not match connection size (1) for port 'Out'. The port definition is at: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/toplevel/hexdrv0 File: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv
+# ** Warning: (vsim-3015) C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/lab9_top.sv(46): [PCDPC] - Port size (7) does not match connection size (1) for port 'Out'. The port definition is at: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/toplevel/hexdrv1 File: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv
+# ** Warning: (vsim-3015) C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/lab9_top.sv(50): [PCDPC] - Port size (7) does not match connection size (1) for port 'Out'. The port definition is at: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/toplevel/hexdrv2 File: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv
+# ** Warning: (vsim-3015) C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/lab9_top.sv(54): [PCDPC] - Port size (7) does not match connection size (1) for port 'Out'. The port definition is at: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/toplevel/hexdrv3 File: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv
+# ** Warning: (vsim-3015) C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/lab9_top.sv(58): [PCDPC] - Port size (7) does not match connection size (1) for port 'Out'. The port definition is at: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/toplevel/hexdrv4 File: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv
+# ** Warning: (vsim-3015) C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/lab9_top.sv(62): [PCDPC] - Port size (7) does not match connection size (1) for port 'Out'. The port definition is at: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/toplevel/hexdrv5 File: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv
+# ** Warning: (vsim-3015) C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/lab9_top.sv(66): [PCDPC] - Port size (7) does not match connection size (1) for port 'Out'. The port definition is at: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/toplevel/hexdrv6 File: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv
+# ** Warning: (vsim-3015) C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/lab9_top.sv(70): [PCDPC] - Port size (7) does not match connection size (1) for port 'Out'. The port definition is at: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv(4).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/toplevel/hexdrv7 File: C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/hexdriver.sv
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 5000 ns
+# ** Warning: (vsim-8315) C:/Users/Mehul/Documents/GitHub/ECE-385/lab9test/AES_Control.sv(49): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/toplevel/aes_interface/aes/states
+# End time: 10:50:03 on Apr 11,2020, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 10

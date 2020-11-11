@@ -1,0 +1,25 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst lab7_soc.Keys -pg 1 -lvl 3 -y 30
+preplace inst lab7_soc.sdram -pg 1 -lvl 4 -y 150
+preplace inst lab7_soc.sysid_qsys_0 -pg 1 -lvl 3 -y 450
+preplace inst lab7_soc.nios2_qsys_0 -pg 1 -lvl 2 -y 230
+preplace inst lab7_soc.sdram_pll -pg 1 -lvl 3 -y 150
+preplace inst lab7_soc.clk_0 -pg 1 -lvl 1 -y 430
+preplace inst lab7_soc.onchip_memory2_0 -pg 1 -lvl 3 -y 370
+preplace inst lab7_soc.SW -pg 1 -lvl 3 -y 270
+preplace inst lab7_soc -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst lab7_soc.led -pg 1 -lvl 3 -y 530
+preplace netloc EXPORT<net_container>lab7_soc</net_container>(MASTER)sdram_pll.c1,(MASTER)lab7_soc.sdram_clk) 1 3 2 NJ 140 NJ
+preplace netloc EXPORT<net_container>lab7_soc</net_container>(SLAVE)lab7_soc.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>lab7_soc</net_container>(SLAVE)lab7_soc.sdram_wire,(SLAVE)sdram.wire) 1 0 4 NJ 220 NJ 220 NJ 240 NJ
+preplace netloc POINT_TO_POINT<net_container>lab7_soc</net_container>(SLAVE)sdram.clk,(MASTER)sdram_pll.c0) 1 3 1 N
+preplace netloc INTERCONNECT<net_container>lab7_soc</net_container>(MASTER)clk_0.clk_reset,(SLAVE)led.reset,(MASTER)nios2_qsys_0.jtag_debug_module_reset,(SLAVE)sdram_pll.inclk_interface_reset,(SLAVE)sdram.reset,(SLAVE)SW.reset,(SLAVE)Keys.reset,(SLAVE)onchip_memory2_0.reset1,(SLAVE)sysid_qsys_0.reset,(SLAVE)nios2_qsys_0.reset_n) 1 1 3 330 400 660 140 920
+preplace netloc EXPORT<net_container>lab7_soc</net_container>(SLAVE)SW.external_connection,(SLAVE)lab7_soc.sw_in) 1 0 3 NJ 360 NJ 360 NJ
+preplace netloc EXPORT<net_container>lab7_soc</net_container>(SLAVE)lab7_soc.led_wire,(SLAVE)led.external_connection) 1 0 3 NJ 420 NJ 560 NJ
+preplace netloc INTERCONNECT<net_container>lab7_soc</net_container>(SLAVE)sdram_pll.pll_slave,(MASTER)nios2_qsys_0.data_master,(SLAVE)SW.s1,(SLAVE)sysid_qsys_0.control_slave,(SLAVE)onchip_memory2_0.s1,(SLAVE)led.s1,(SLAVE)Keys.s1,(MASTER)nios2_qsys_0.instruction_master,(SLAVE)nios2_qsys_0.jtag_debug_module,(SLAVE)sdram.s1) 1 1 3 350 420 620 260 920
+preplace netloc EXPORT<net_container>lab7_soc</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)lab7_soc.reset) 1 0 1 NJ
+preplace netloc EXPORT<net_container>lab7_soc</net_container>(SLAVE)lab7_soc.keys_in,(SLAVE)Keys.external_connection) 1 0 3 NJ 60 NJ 60 NJ
+preplace netloc FAN_OUT<net_container>lab7_soc</net_container>(SLAVE)sysid_qsys_0.clk,(SLAVE)nios2_qsys_0.clk,(SLAVE)SW.clk,(MASTER)clk_0.clk,(SLAVE)onchip_memory2_0.clk1,(SLAVE)Keys.clk,(SLAVE)sdram_pll.inclk_interface,(SLAVE)led.clk) 1 1 2 290 380 640
+levelinfo -pg 1 0 80 1140
+levelinfo -hier lab7_soc 90 120 380 730 970 1050

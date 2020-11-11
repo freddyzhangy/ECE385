@@ -1,0 +1,18 @@
+module score_counter(
+							
+							input logic inscore1,
+							input logic inscore2
+							
+							input logic hit1,
+							input logic hit2,
+							
+							output logic outscore1,
+							output logic outscore2
+							
+							);
+							
+	assign outscore1 = inscore1 + hit1;
+	assign outscore2 = inscore2 + hit2;
+	
+endmodule
+	

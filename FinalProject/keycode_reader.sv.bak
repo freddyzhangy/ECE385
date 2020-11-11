@@ -1,0 +1,84 @@
+module keycode_reader(
+								input logic [31:0] keycode,
+								
+								output logic a_on, d_on, q_on, e_on,			// Player 1
+								output logic l_on, r_on, slash_on, quote_on	// Player 2
+
+								);
+
+//	Player 1 Controls
+
+//Left Movement
+	assign a_on = (keycode[31:24] == 8'h04 |
+	 
+	keycode[23:16] == 8'h04 |
+	 
+	keycode[15: 8] == 8'h04 |
+	 
+	keycode[ 7: 0] == 8'h04); 
+
+//Right Movement
+	assign d_on = (keycode[31:24] == 8'h07 |
+ 
+	keycode[23:16] == 8'h07 |
+	 
+	keycode[15: 8] == 8'h07 |
+	 
+	keycode[ 7: 0] == 8'h07);
+		
+//Attack 1		
+	assign q_on = (keycode[31:24] == 8'h14 |
+	 
+	keycode[23:16] == 8'h14 |
+	 
+	keycode[15: 8] == 8'h14 |
+	 
+	keycode[ 7: 0] == 8'h14); 
+	
+//Attack 2
+	assign e_on = (keycode[31:24] == 8'h08 |
+	 
+	keycode[23:16] == 8'h08 |
+	 
+	keycode[15: 8] == 8'h08 |
+	 
+	keycode[ 7: 0] == 8'h08); 
+	
+//	Player 2 Controls
+
+//Left Movement
+	assign l_on = (keycode[31:24] == 8'h50 |
+	 
+	keycode[23:16] == 8'h50 |
+	 
+	keycode[15: 8] == 8'h50 |
+	 
+	keycode[ 7: 0] == 8'h50); 
+	
+//Right Movement	
+	assign r_on = (keycode[31:24] == 8'h4F |
+ 
+	keycode[23:16] == 8'h4F |
+	 
+	keycode[15: 8] == 8'h4F |
+	 
+	keycode[ 7: 0] == 8'h4F);
+	
+//Attack 1							
+	assign slash_on = (keycode[31:24] == 8'h38 |
+	 
+	keycode[23:16] == 8'h38 |
+	 
+	keycode[15: 8] == 8'h38 |
+	 
+	keycode[ 7: 0] == 8'h38); 
+
+//Attack 2
+	assign quote_on = (keycode[31:24] == 8'h34 |
+	 
+	keycode[23:16] == 8'h34 |
+	 
+	keycode[15: 8] == 8'h34 |
+	 
+	keycode[ 7: 0] == 8'h34); 
+	

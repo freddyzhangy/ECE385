@@ -1,0 +1,19 @@
+module kick_ani(
+		input logic Clk,
+		input logic Reset,
+		input logic keypress,
+		output logic [1:0] ani
+		);
+	enum logic[3:0] {
+		Start, transition, kick, done
+	} curr_state, next_state;
+	
+	logic [7:0] counter;
+	logic next;
+	
+	always_ff @ (posedge Clk)
+	begin
+		if(Reset)
+		begin
+			curr_state = Start;
+			counter = 0;

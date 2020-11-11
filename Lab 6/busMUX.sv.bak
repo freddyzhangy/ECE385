@@ -1,0 +1,3 @@
+module busMUX(
+	input logic GateALU, GateMDR, GateMARMUX, GatePC,
+	

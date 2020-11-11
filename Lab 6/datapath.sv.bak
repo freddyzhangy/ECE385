@@ -1,0 +1,29 @@
+module datapath(
+						input logic Reset, Clk,
+						input logic LD_MAR, LD_MDR, LD_IR, LD_BEN, LD_CC, LD_REG, LD_PC, LD_LED,
+						input logic logic GatePC, GateMDR, GateALU, GateMARMUX,
+						input logic [1:0] PCMUX, ADDR2MUX, ALUK,
+						input logic DRMUX, SR1MUX, SR2MUX, ADDR1MUX,
+						input logic MIO_EN,
+						input logic [15:0] MDR_In,
+						
+						output logic [11:0] LED,
+						output logic BEN,
+						output logic [15:0] IR, MDR, MAR
+					
+					);
+					
+	logic PC, SR1, SR2, 	
+	
+
+	always_ff @ (posedge Clk)
+	begin
+
+		if (LD_LED)
+			LED <= IR[11:0];
+		else 
+			LED <= 12'h0;
+
+	end
+	
+endmodule

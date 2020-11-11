@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu May 07 12:47:21 2020
+Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Revision Name : KarateChamp
+Top-level Entity Name : KarateChamp
+Family : Cyclone IV E
+Total logic elements : 4,135
+    Total combinational functions : 3,352
+    Dedicated logic registers : 2,137
+Total registers : 2137
+Total pins : 128
+Total virtual pins : 0
+Total memory bits : 123,637
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 2

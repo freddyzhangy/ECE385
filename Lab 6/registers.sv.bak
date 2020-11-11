@@ -1,0 +1,3 @@
+module registers (input logic[15:0] regIn[7:0],
+						output logic[15:0] regOut[7:0]
+						);

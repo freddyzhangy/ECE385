@@ -1,0 +1,26 @@
+module ripple_adder
+(
+    input   logic[8:0]     A,
+    input   logic[8:0]     B,
+    output  logic[8:0]     Sum,
+    output  logic           CO
+);
+
+    /* TODO
+     *
+     * Insert code here to implement a ripple adder.
+     * Your code should be completly combinational (don't use always_ff or always_latch).
+     * Feel free to create sub-modules or other files. */
+	always_comb
+	begin
+		logic c,s;
+		c = 0;
+		
+		for(int i = 0; i < 9; i++) begin
+			Sum[i] = A[i]^B[i]^c;
+			c = (A[i]&B[i])|(B[i]&c)|(A[i]&c);
+		end
+		CO = c;
+	end
+     
+endmodule
